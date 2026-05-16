@@ -1,0 +1,32 @@
+{
+  "name": "smartmail-ai-app",
+  "version": "0.1.0",
+  "private": false,
+  "description": "An open-source AI-powered email assistant for summarizing emails and generating professional replies.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "@anthropic-ai/sdk": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  },
+  "keywords": [
+    "ai",
+    "email",
+    "assistant",
+    "claude",
+    "open-source"
+  ],
+  "license": "MIT"
+}
