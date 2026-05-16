@@ -1,0 +1,18 @@
+import "./globals.css";
+
+export const metadata = {
+  title: "SmartMail AI App",
+  description: "AI-powered email assistant",
+};
+
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+    </html>
+  );
+}
